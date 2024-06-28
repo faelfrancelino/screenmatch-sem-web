@@ -1,9 +1,9 @@
 package br.com.alura.screenmatch.model;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 
 public class Episodio {
-
     private Integer temporada;
     private String titulo;
     private Integer numeroEpisodio;
@@ -74,8 +74,6 @@ public class Episodio {
                 ", titulo='" + titulo + '\'' +
                 ", numeroEpisodio=" + numeroEpisodio +
                 ", avaliacao=" + avaliacao +
-                ", dataLancamento=" + dataLancamento;
+                ", dataLancamento=" + dataLancamento ;
     }
 }
-
-

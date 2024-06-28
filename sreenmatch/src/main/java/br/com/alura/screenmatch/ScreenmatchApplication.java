@@ -1,19 +1,15 @@
 package br.com.alura.screenmatch;
 
-
 import br.com.alura.screenmatch.principal.Principal;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-
 @SpringBootApplication
-public class SreenmatchApplication implements CommandLineRunner {
+public class ScreenmatchApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SreenmatchApplication.class, args);
+		SpringApplication.run(ScreenmatchApplication.class, args);
 	}
 
 	@Override
@@ -22,4 +18,3 @@ public class SreenmatchApplication implements CommandLineRunner {
 		principal.exibeMenu();
 	}
 }
-

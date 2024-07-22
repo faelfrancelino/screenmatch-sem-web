@@ -1,5 +1,9 @@
 package br.com.alura.screenmatch.model;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.OptionalDouble;
+
 import br.com.alura.screenmatch.service.ConsultaMyMemory;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -12,11 +16,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import jakarta.persistence.Transient;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.OptionalDouble;
 
 @Entity
 @Table(name="series")
